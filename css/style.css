@@ -3,7 +3,13 @@
       font-size: 10px;
     }
 
+    div#scott{
+      font-size:8px;
+    }
 
+    p#header{
+      font-size:9px;
+    }
 
     .btn{
 
@@ -14,11 +20,30 @@
 
  }
 
+ .video iframe {
+     position:absolute;
+ 		padding-top: 5%;
+ 		padding-bottom: 5%;
+     width:100px;
+     height:100px;
+ 		text-align: center;
+ }
+
+ div#Quote0{
+   font-size:200%%;
+ }
+
+ div#instruction{
+   font-size:200%%;
+ }
+
  #topHeader{
 	 font-size: 1vh;
  }
 
-
+ div.evolutionFirstRow{
+    font-size:100%%;
+  }
 }
 
 @media (max-width: @screen-sm) {
@@ -26,11 +51,39 @@
       font-size: 10px;
     }
 
+    .video iframe {
+        position:absolute;
+    		padding-top: 5%;
+    		padding-bottom: 5%;
+        width:100px;
+        height:100px;
+    		text-align: center;
+    }
+    
+    div#scott{
+      font-size:8px;
+    }
 
+    div#instruction{
+      font-size:200%%;
+    }
+
+
+        p#header{
+          font-size:2%;
+        }
+
+    div#Quote0{
+      font-size:200%%;
+    }
 
 		#topHeader{
 			font-size: 1vh;
 		}
+
+    div.evolutionFirstRow{
+       font-size:100%%;
+     }
 }
 
 #albumVideo{
@@ -75,10 +128,21 @@ html, body {
     font-style: normal;
 }
 
-p, div {
-    font-family: 'Exo-Regular';
+@font-face {
+    font-family:'Exo-Italic';
+    src: url(../fonts/Exo-Italic.otf);
+    font-weight: normal;
+    font-style: normal;
 }
 
+p, div {
+    font-family:'Exo-Regular';
+}
+
+i{
+  font-family:'Exo-Italic';
+  font-size: 10px;
+}
 p{
 
   font-size: 1.5vw;
@@ -103,8 +167,17 @@ p{
 
   padding-top:1%;
   padding-bottom:10%;
-  border-style: solid;
-  border-color:black;
+
+
+}
+
+div.bodyParagraph2{
+
+
+  padding-top:1%;
+  padding-bottom:10%;
+
+  font-color: white;
 
 }
 
@@ -113,8 +186,7 @@ p{
   font-size:125%;
   padding-top:2%;
 	padding-right:2%;
-  border-style: solid;
-  border-color:black;
+
 
 }
 
@@ -140,6 +212,14 @@ background: none
 
 }
 
+div#Quote0{
+  font-size:305%%;
+}
+
+div#instruction{
+  font-size:300%%;
+}
+
 #weezerAlbum{
 	height: 20vh;
 	width: 10vw;
@@ -154,9 +234,9 @@ background: none
 
 }
 .evolutionFirstRow{
-  margin-top: 5%;
+  overflow: hidden;
   text-align: center;
-  font-size: 625%;
+  font-size: 170%;
 
 }
 
@@ -172,11 +252,19 @@ background: none
 }
 
 #bodyPics{
+
   height:90%;
   width: 90%;
 
 }
 
+
+#bandPics{
+  margin-top:10%;
+  height:80%;
+  width: 80%;
+
+}
 
  .btn {
 
@@ -218,6 +306,10 @@ background: none
   text-align:center;
 }
 
+div#scott{
+  font-size:50%;
+}
+
 .row-centered {
     text-align:center;
 }
@@ -228,6 +320,14 @@ background: none
     text-align:center;
     /* inline-block space fix */
 
+}
+
+p#header{
+  font-size:12px;
+}
+
+i#top{
+  font-size: 1.5vw;
 }
 
 .video iframe {
