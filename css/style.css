@@ -79,6 +79,10 @@ p, div {
     font-family: 'Exo-Regular';
 }
 
+i{
+  font-family: 'Exo-Italic';
+  src: url(../fonts/Exo-Italic.otf);
+}
 p{
 
   font-size: 1.5vw;

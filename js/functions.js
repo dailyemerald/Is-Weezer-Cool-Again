@@ -3,6 +3,7 @@ $(document).ready(function(){
 	<!--QUOTE BUTTONS-->
 
 	$('#pp1').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').show();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
@@ -15,6 +16,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp2').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').show();
 		$('#Quote3').hide();
@@ -27,6 +29,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp3').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').show();
@@ -40,6 +43,7 @@ $(document).ready(function(){
 
 	$('#pp4').click(function() {
 		$('#Quote1').hide();
+		$('#Quote0').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
 		$('#Quote4').show();
@@ -51,6 +55,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp5').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
@@ -63,6 +68,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp6').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
@@ -75,6 +81,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp7').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
@@ -87,6 +94,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp8').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
@@ -99,6 +107,7 @@ $(document).ready(function(){
 	});
 
 	$('#pp9').click(function() {
+		$('#Quote0').hide();
 		$('#Quote1').hide();
 		$('#Quote2').hide();
 		$('#Quote3').hide();
