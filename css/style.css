@@ -103,8 +103,17 @@ p{
 
   padding-top:1%;
   padding-bottom:10%;
-  border-style: solid;
-  border-color:black;
+
+
+}
+
+div.bodyParagraph2{
+
+
+  padding-top:1%;
+  padding-bottom:10%;
+
+  font-color: white;
 
 }
 
@@ -113,8 +122,7 @@ p{
   font-size:125%;
   padding-top:2%;
 	padding-right:2%;
-  border-style: solid;
-  border-color:black;
+
 
 }
 
@@ -172,11 +180,19 @@ background: none
 }
 
 #bodyPics{
+
   height:90%;
   width: 90%;
 
 }
 
+
+#bandPics{
+  margin-top:20%;
+  height:100%;
+  width: 100%;
+
+}
 
  .btn {
 
