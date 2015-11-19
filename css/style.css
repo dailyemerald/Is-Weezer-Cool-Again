@@ -75,13 +75,20 @@ html, body {
     font-style: normal;
 }
 
+@font-face {
+    font-family:'Exo-Italic';
+    src: url(../fonts/Exo-Italic.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 p, div {
-    font-family: 'Exo-Regular';
+    font-family:'Exo-Regular';
 }
 
 i{
-  font-family: 'Exo-Italic';
-  src: url(../fonts/Exo-Italic.otf);
+  font-family:'Exo-Italic';
+
 }
 p{
 
@@ -166,9 +173,9 @@ background: none
 
 }
 .evolutionFirstRow{
-  margin-top: 5%;
+  margin: 3%;
   text-align: center;
-  font-size: 625%;
+  font-size: 270%;
 
 }
 
@@ -192,9 +199,9 @@ background: none
 
 
 #bandPics{
-  margin-top:20%;
-  height:100%;
-  width: 100%;
+  margin-top:10%;
+  height:80%;
+  width: 80%;
 
 }
 
