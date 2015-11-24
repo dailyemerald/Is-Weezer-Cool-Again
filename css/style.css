@@ -1,340 +1,256 @@
 @media (max-width: @screen-xs) {
-    .title{
-      font-size: 10px;
+    .title {
+        font-size: 10px;
     }
-
-    div#scott{
-      font-size:8px;
+ 
+    div#scott {
+        font-size: 8px;
     }
-
-    p#header{
-      font-size:9px;
+    p#header {
+        font-size: 9px;
     }
-
-    .btn{
-
-      margin-right: 15px;
-      margin-left: 15px;
-      height: 25%;
-      width: 25%;
-
- }
-
- .video iframe {
-     position:absolute;
- 		padding-top: 5%;
- 		padding-bottom: 5%;
-     width:100px;
-     height:100px;
- 		text-align: center;
- }
-
- div#Quote0{
-   font-size:200%%;
- }
-
- div#instruction{
-   font-size:200%%;
- }
-
- #topHeader{
-	 font-size: 1vh;
- }
-
- div.evolutionFirstRow{
-    font-size:100%%;
-  }
+    .btn {
+        margin-right: 15px;
+        margin-left: 15px;
+        height: 25%;
+        width: 25%;
+    }
+    .video iframe {
+        position: absolute;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    div#Quote0 {
+        font-size: 200%%;
+    }
+    div#instruction {
+        font-size: 200%%;
+    }
+    #topHeader {
+        font-size: 1vh;
+    }
+    div.evolutionFirstRow {
+        font-size: 100%%;
+    }
 }
+/** SMALL SCREEN**/
 
 @media (max-width: @screen-sm) {
-     title{
-      font-size: 10px;
+    title {
+        font-size: 10px;
     }
 
     .video iframe {
-        position:absolute;
-    		padding-top: 5%;
-    		padding-bottom: 5%;
-        width:100px;
-        height:100px;
-    		text-align: center;
+        position: absolute;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
     }
-    
-    div#scott{
-      font-size:8px;
+    div#scott {
+        font-size: 8px;
     }
-
-    div#instruction{
-      font-size:200%%;
+    div#instruction {
+        font-size: 200%%;
     }
-
-
-        p#header{
-          font-size:2%;
-        }
-
-    div#Quote0{
-      font-size:200%%;
+    p#header {
+        font-size: 2%;
     }
-
-		#topHeader{
-			font-size: 1vh;
-		}
-
-    div.evolutionFirstRow{
-       font-size:100%%;
-     }
+    div#Quote0 {
+        font-size: 200%%;
+    }
+    #topHeader {
+        font-size: 1vh;
+    }
+    div.evolutionFirstRow {
+        font-size: 100%%;
+    }
 }
+/** END SCREEN**/
 
-#albumVideo{
-  overflow: hidden;
+#albumVideo {
+    overflow: hidden;
 }
-
-#steve{
-  height:50%;
-  width:50%;
-
+#steve {
+    height: 50%;
+    width: 50%;
 }
-
-
-#navBar{
-	position: fixed;
-  width: 100%;
-	height: 5;
-  z-index:10;
-	overflow: hidden;
-  background-color: white;
-  padding-bottom:.3%;
+#navBar {
+    position: fixed;
+    width: 100%;
+    height: 5;
+    z-index: 10;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: .3%;
 }
-
-
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
 .astext {
-    background:none;
-    border:none;
-    margin:0;
-    padding:0;
-		font-size: 105%;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 105%;
 }
-
 @font-face {
-    font-family:'Exo-Regular';
+    font-family: 'Exo-Regular';
     src: url(../fonts/Exo-Regular.otf);
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
-    font-family:'Exo-Italic';
+    font-family: 'Exo-Italic';
     src: url(../fonts/Exo-Italic.otf);
     font-weight: normal;
     font-style: normal;
 }
-
-p, div {
-    font-family:'Exo-Regular';
+p,
+div {
+    font-family: 'Exo-Regular';
 }
-
-i{
-  font-family:'Exo-Italic';
-  font-size: 10px;
+i {
+    font-family: 'Exo-Italic';
+    font-size: 10px;
 }
-p{
-
-  font-size: 1.5vw;
+p {
+    font-size: 1.5vw;
 }
-
 .bottom-wrapper {
-    width:100%;
-    padding-top:92px;
-    z-index:5;
-    overflow:hidden;
+    width: 100%;
+    padding-top: 92px;
+    z-index: 5;
+    overflow: hidden;
 }
-
-
-.photo{
-  width:110%;
-  height:110%;
-
+.photo {
+    width: bv 110%;
+    height: 110%;
 }
-
-#bodyParagraph{
-
-
-  padding-top:1%;
-  padding-bottom:10%;
-
-
+#bodyParagraph {
+    padding-top: 1%;
+    padding-bottom: 10%;
 }
-
-div.bodyParagraph2{
-
-
-  padding-top:1%;
-  padding-bottom:10%;
-
-  font-color: white;
-
+div.bodyParagraph2 {
+    padding-top: 1%;
+    padding-bottom: 10%;
+    font-color: white;
 }
-
-#mediaParagraph{
-
-  font-size:125%;
-  padding-top:2%;
-	padding-right:2%;
-
-
+#mediaParagraph {
+    font-size: 125%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
-
-
-#topHeader{
-  text-align:center;
-  color:Black;
-  padding-bottom:2%;
-  font-size:13vh;
-  margin-top:10%;
-  background-color: white;
-
+#topHeader {
+    text-align: center;
+    color: Black;
+    padding-bottom: 2%;
+    font-size: 13vh;
+    margin-top: 10%;
+    background-color: white;
 }
-
-
-.evolutionButton{
-	width: 120px;
-  height:120px;
-	background-size:120px 120px;
-  padding: 0;
-  border: none;
-background: none
-
+.evolutionButton {
+    width: 120px;
+    height: 120px;
+    background-size: 120px 120px;
+    padding: 0;
+    border: none;
+    background: none
 }
-
-div#Quote0{
-  font-size:305%%;
+div#Quote0 {
+    font-size: 305%%;
 }
-
-div#instruction{
-  font-size:300%%;
+div#instruction {
+    font-size: 300%%;
 }
-
-#weezerAlbum{
-	height: 20vh;
-	width: 10vw;
+#weezerAlbum {
+    height: 20vh;
+    width: 10vw;
 }
-
-
-
-.evolutionSpacing{
-  margin-top: 5%;
-  text-align: center;
-  font-size: 525%;
-
+.evolutionSpacing {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 525%;
 }
-.evolutionFirstRow{
-  overflow: hidden;
-  text-align: center;
-  font-size: 170%;
-
+.evolutionFirstRow {
+    overflow: hidden;
+    text-align: center;
+    font-size: 170%;
 }
-
-
-
-
-
-
-
-#postItem{
+#postItem {
     height: 100%;
     width: 100%;
 }
-
-#bodyPics{
-
-  height:90%;
-  width: 90%;
-
+#bodyPics {
+    height: 90%;
+    width: 90%;
 }
-
-
-#bandPics{
-  margin-top:10%;
-  height:80%;
-  width: 80%;
-
+#bandPics {
+    margin-top: 10%;
+    height: 80%;
+    width: 80%;
 }
-
- .btn {
-
-
-      height: 200px;
-      width: 150px;
-      clear:both;
-      background-size: 200px 150px;
- }
-
-
-
-
-
-
-
- .sho {
+.btn {
+    height: 200px;
+    width: 150px;
+    clear: both;
+    background-size: 200px 150px;
+}
+.sho {
     display: none;
     text-align: center;
     font-size: 100px;
-    color:black;
+    color: black;
 }
-
-
-.videoBox{
-	height: 300;
-	width: 300;
+.videoBox {
+    height: 300;
+    width: 300;
 }
-
-.profilePic{
-    width:110px;
-    height:110px;
+.profilePic {
+    width: 110px;
+    height: 110px;
     margin: 1%;
 }
-
-#gif{
-  width:80%;
-  height: 80%;
-  text-align:center;
+#gif {
+    width: 80%;
+    height: 80%;
+    text-align: center;
 }
-
-div#scott{
-  font-size:50%;
+div#scott {
+    font-size: 50%;
 }
-
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:center;
+    
+    text-align: center;
     /* inline-block space fix */
-
 }
-
-p#header{
-  font-size:12px;
+p#header {
+    font-size: 12px;
 }
-
-i#top{
-  font-size: 1.5vw;
+i#top {
+    font-size: 1.5vw;
 }
-
 .video iframe {
-    position:absolute;
-		padding-top: 5%;
-		padding-bottom: 5%;
-    width:200px;
-    height:200px;
-		text-align: center;
+    position: absolute;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#twitter-widget-0 {
+    float: none;
+    width: 220px;
 }
