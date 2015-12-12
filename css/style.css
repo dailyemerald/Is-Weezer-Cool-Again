@@ -2,25 +2,32 @@
     .title {
         font-size: 10px;
     }
- 
+
+    #bodyParagraph p{
+      font-size: 10px;
+
+    }
+
     div#scott {
-        font-size: 8px;
+        font-size:70%;
     }
     p#header {
         font-size: 9px;
     }
+
+
     .btn {
         margin-right: 15px;
         margin-left: 15px;
         height: 25%;
         width: 25%;
     }
-    .video iframe {
+    iframe {
         position: absolute;
         padding-top: 5%;
         padding-bottom: 5%;
-        width: 100px;
-        height: 100px;
+        width: 100% !important;
+        height: 100% !important;
         text-align: center;
     }
     div#Quote0 {
@@ -35,6 +42,8 @@
     div.evolutionFirstRow {
         font-size: 100%%;
     }
+
+
 }
 /** SMALL SCREEN**/
 
@@ -42,6 +51,10 @@
     title {
         font-size: 10px;
     }
+    #bodyParagraph p{
+      font-size: 10px;
+    }
+
 
     .video iframe {
         position: absolute;
@@ -79,6 +92,10 @@
     height: 50%;
     width: 50%;
 }
+
+
+
+
 #navBar {
     position: fixed;
     width: 100%;
@@ -136,11 +153,12 @@ p {
 #bodyParagraph {
     padding-top: 1%;
     padding-bottom: 10%;
+    padding-left: 5%;
 }
 div.bodyParagraph2 {
     padding-top: 1%;
     padding-bottom: 10%;
-    font-color: white;
+    color: white;
 }
 #mediaParagraph {
     font-size: 125%;
@@ -181,7 +199,9 @@ div#instruction {
 .evolutionFirstRow {
     overflow: hidden;
     text-align: center;
-    font-size: 170%;
+    font-size: 130%;
+    padding-top: 15%;
+    padding-bottom: 5%;
 }
 #postItem {
     height: 100%;
@@ -205,7 +225,7 @@ div#instruction {
 .sho {
     display: none;
     text-align: center;
-    font-size: 100px;
+    font-size: 60%;
     color: black;
 }
 .videoBox {
@@ -213,8 +233,8 @@ div#instruction {
     width: 300;
 }
 .profilePic {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     margin: 1%;
 }
 #gif {
@@ -232,7 +252,7 @@ div#scott {
     display: inline-block;
     float: none;
     /* reset the text-align */
-    
+
     text-align: center;
     /* inline-block space fix */
 }
@@ -250,7 +270,24 @@ i#top {
     height: 100%;
     text-align: center;
 }
-#twitter-widget-0 {
-    float: none;
-    width: 220px;
+
+
+iframe[id^='twitter-widget-']{
+  max-width:100% !important;
+
+
+}
+
+div #player{
+  width: 100%;
+  height: 100%;
+}
+div #scott{
+  text-align:right;
+  font-size:1.5vw;
+  margin-right:5%;"
+}
+
+#band p{
+  font-size:1vw;
 }
