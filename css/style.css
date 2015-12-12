@@ -3,6 +3,10 @@
         font-size: 10px;
     }
 
+    #albumtext{
+      font-size:1.2vw;
+    }
+
     #bodyParagraph p{
       font-size: 10px;
 
@@ -55,6 +59,9 @@
       font-size: 10px;
     }
 
+    #albumtext{
+      font-size:1.2vw;
+    }
 
     .video iframe {
         position: absolute;
@@ -94,7 +101,9 @@
 }
 
 
-
+#albumtext{
+  font-size:1.2vw;
+}
 
 #navBar {
     position: fixed;
