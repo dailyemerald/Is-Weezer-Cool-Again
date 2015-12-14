@@ -3,14 +3,6 @@
         font-size: 10px;
     }
 
-    #albumtext{
-      font-size:1.2vw;
-    }
-
-    #bodyParagraph p{
-      font-size: 10px;
-
-    }
 
     div#scott {
         font-size:70%;
@@ -55,13 +47,9 @@
     title {
         font-size: 10px;
     }
-    #bodyParagraph p{
-      font-size: 10px;
-    }
 
-    #albumtext{
-      font-size:1.2vw;
-    }
+
+
 
     .video iframe {
         position: absolute;
@@ -101,8 +89,8 @@
 }
 
 
-#albumtext{
-  font-size:1.2vw;
+p#albumtext{
+  font-size:100%;
 }
 
 #navBar {
@@ -146,8 +134,8 @@ i {
     font-family: 'Exo-Italic';
     font-size: 10px;
 }
-p {
-    font-size: 1.5vw;
+#bodyParagraph p {
+    font-size: 110%;
 }
 .bottom-wrapper {
     width: 100%;
@@ -269,14 +257,14 @@ p#header {
     font-size: 12px;
 }
 i#top {
-    font-size: 1.5vw;
+    font-size: 120%;
 }
 .video iframe {
     position: absolute;
     padding-top: 5%;
     padding-bottom: 5%;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     text-align: center;
 }
 
@@ -299,4 +287,14 @@ div #scott{
 
 #band p{
   font-size:1vw;
+}
+
+img.profilePic {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img.profilePic:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
